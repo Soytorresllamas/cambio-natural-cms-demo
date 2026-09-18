@@ -637,6 +637,11 @@ body {
     transform: scale(var(--canvas-scale, 1));
   }
 }
+@media (max-width:767px) {
+  .scroll-navigation-page {
+    padding-right: 48px;
+  }
+}
 @property --tw-rotate-x {
   syntax: "*";
   inherits: false;
